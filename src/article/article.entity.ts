@@ -4,6 +4,10 @@ import {
   Column,
   BeforeUpdate,
   ManyToOne,
+  ManyToMany,
+  JoinTable,
+  BeforeInsert,
+  AfterLoad,
 } from 'typeorm';
 import { UserEntity } from '@app/user/user.entity';
 
